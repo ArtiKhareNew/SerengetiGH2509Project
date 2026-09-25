@@ -13,17 +13,18 @@
     <value name="AddPublicService">6.0</value>
     <value name="MultiplyPublicService">6.0</value>
     <value name="OpenWeatherClient">1.0</value>
+    <value name="XMLBuiltInServices">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">12</value>
+  <value name="build">13</value>
   <null name="description"/>
   <value name="created_date">25-09-2026 09:32:01 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-09-25T09:46:54.571083814Z</value>
+  <value name="lastUpdated">2026-09-25T09:48:42.917356238Z</value>
   <value name="creator">Arti Khare</value>
 </Values>
