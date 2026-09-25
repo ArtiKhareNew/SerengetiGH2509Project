@@ -19,6 +19,10 @@ packages:
   gitUrl: https://bitbucket.org/testartiibm
   gitUsername: artik
   gitBranch: master
+- name: OpenWeatherClient
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: public
+  wpmVersion: latest
 services:
 - serviceName: project.serengetigh2509.integrations:bitbucketfs
   packages:
