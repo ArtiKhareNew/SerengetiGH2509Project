@@ -25,6 +25,7 @@ packages:
   wpmRegistry: public
   wpmVersion: latest
 - name: XMLBuiltInServices
+  version: "1.0"
   gitServerName: srcGithubCtrl_Arti
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
@@ -47,6 +48,58 @@ services:
   - name: MultiplyPublicService
     version: "6.0"
 - serviceName: pub.math:multiplyInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: project.serengetigh2509.integrations:xl
+  packages:
+  - name: SerengetiGH2509Project
+    version: "1.0"
+  - name: AddPublicService
+    version: "6.0"
+  - name: XMLBuiltInServices
+    version: "1.0"
+  - name: MultiplyPublicService
+    version: "6.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: XMLBuiltInServices:xmlFlexCascade
+  packages:
+  - name: XMLBuiltInServices
+    version: "1.0"
+- serviceName: pub.xml:xmlStringToXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:getXMLNodeType
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:getXMLNodeIterator
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:getNextXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:freeXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:xmlStringToEnhancedXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:queryXMLNode
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:xmlNodeToDocument
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.xml:documentToXMLString
   packages:
   - name: WmPublic
     version: 12.1.0.0.1070
