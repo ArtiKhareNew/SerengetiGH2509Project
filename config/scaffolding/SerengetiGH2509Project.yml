@@ -12,6 +12,11 @@ packages:
   gitUrl: https://gitlab.com/ArtiKhareGitlab
   gitUsername: ArtiKhareGitlab
   gitBranch: master
+- name: MultiplyPublicService
+  gitServerName: srcCtrl_shared_bitbucket_Arti
+  gitUrl: https://bitbucket.org/testartiibm
+  gitUsername: artik
+  gitBranch: master
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbc.SAP TxStore Pool.spyparms: SpyAttributes=(log=(file)logs/spy/SAP_TxStore_Pool.log;logTName=yes;timestamp=yes)
