@@ -71,6 +71,26 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1070
+- serviceName: project.serengetigh2509.integrations:js
+  packages:
+  - name: SerengetiGH2509Project
+    version: "1.0"
+  - name: AddPublicService
+    version: "6.0"
+  - name: XMLBuiltInServices
+    version: "1.0"
+  - name: MultiplyPublicService
+    version: "6.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: pub.json:documentToJSON
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: pub.json:jsonToDocument
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
 - serviceName: project.serengetigh2509.integrations:xl
   packages:
   - name: SerengetiGH2509Project
